@@ -18,7 +18,7 @@ export default function Main() {
     <div>
       <div
         style={{
-          backgroundImage: "url(" + require("../computer.jpeg") + ")",
+          backgroundImage: "url(" + require("../computer.jpg") + ")",
           width: "100%",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
@@ -175,7 +175,7 @@ export default function Main() {
                 opacity: Spencerhover ? 0.5 : 1,
                 boxShadow: "1px 2px 9px black",
                 fontSize: 30,
-                backgroundImage: "url(" + require("../spencerPic.jpeg") + ")",
+                backgroundImage: "url(" + require("../spencerPic.jpg") + ")",
                 backgroundSize: "cover",
                 color: "white",
                 marginLeft: 30,
@@ -193,7 +193,7 @@ export default function Main() {
                 opacity: Carterhover ? 0.5 : 1,
                 boxShadow: "1px 2px 9px black",
                 fontSize: 30,
-                backgroundImage: "url(" + require("../danielPic.jpeg") + ")",
+                backgroundImage: "url(" + require("../danielPic.jpg") + ")",
                 backgroundSize: "cover",
                 color: "white",
                 marginLeft: 30,
