@@ -9,7 +9,7 @@ export default function Main() {
   const [Spencerhover, setSpencerHover] = useState(false);
   const [Carterhover, setCarterHover] = useState(false);
   const [Lindseyhover, setLindseyHover] = useState(false);
-  console.log(window.innerWidth / window.innerHeight, "poop");
+  console.log(window.innerWidth, "poop");
   const [BrianClick, setBrianClick] = useState(false);
   const [SpencerClick, setSpencerClick] = useState(false);
   const [CarterClick, setCarterClick] = useState(false);
@@ -236,8 +236,8 @@ export default function Main() {
                 backgroundImage: "url(" + require("../soccer.jpg") + ")",
                 backgroundSize: "cover",
                 color: "white",
-                width: 300,
-                height: 300,
+                width: (300 * window.innerWidth) / 1319,
+                height: (300 * window.innerWidth) / 1319,
                 color: "purple",
                 marginRight: 30,
                 marginLeft: 30,
@@ -251,8 +251,8 @@ export default function Main() {
             <button
               style={{
                 borderRadius: 20,
-                height: 300,
-                width: 300,
+                height: (300 * window.innerWidth) / 1319,
+                width: (300 * window.innerWidth) / 1319,
                 opacity: Spencerhover ? 0.5 : 1,
                 boxShadow: "1px 2px 9px black",
                 fontSize:
@@ -270,8 +270,8 @@ export default function Main() {
             <button
               style={{
                 borderRadius: 20,
-                height: 300,
-                width: 300,
+                height: (300 * window.innerWidth) / 1319,
+                width: (300 * window.innerWidth) / 1319,
                 opacity: Carterhover ? 0.5 : 1,
                 boxShadow: "1px 2px 9px black",
                 fontSize:
@@ -289,8 +289,8 @@ export default function Main() {
             <button
               style={{
                 borderRadius: 20,
-                height: 300,
-                width: 300,
+                height: (300 * window.innerWidth) / 1319,
+                width: (300 * window.innerWidth) / 1319,
                 opacity: Lindseyhover ? 0.5 : 1,
                 boxShadow: "1px 2px 9px black",
                 fontSize:
@@ -381,7 +381,7 @@ export default function Main() {
 
                 paddingLeft: 10,
 
-                paddingRIght: 10,
+                paddingRight: 10,
                 lineHeight: 2,
               }}
               to="/CodingLanguages"
@@ -398,7 +398,7 @@ export default function Main() {
 
                 paddingLeft: 10,
 
-                paddingRIght: 10,
+                paddingRight: 10,
                 lineHeight: 2,
               }}
             >
@@ -413,7 +413,7 @@ export default function Main() {
 
                 paddingLeft: 10,
 
-                paddingRIght: 10,
+                paddingRight: 10,
                 lineHeight: 2,
               }}
             >
