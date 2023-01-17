@@ -57,7 +57,15 @@ export default function Main() {
                 textAlign: "center",
               }}
             >
-              <h2 style={{ lineHeight: 2 }}>MEETINGS</h2>
+              <h2
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 35,
+                }}
+              >
+                MEETINGS
+              </h2>
               <body
                 style={{
                   lineHeight: 2,
@@ -94,7 +102,15 @@ export default function Main() {
                 textAlign: "center",
               }}
             >
-              <h2 style={{ lineHeight: 2 }}>CONTACT INFORMATION</h2>
+              <h2
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 35,
+                }}
+              >
+                CONTACT INFORMATION
+              </h2>
               <body
                 style={{
                   lineHeight: 2,
@@ -140,7 +156,15 @@ export default function Main() {
                 marginBottom: 40,
               }}
             >
-              <h2 style={{ lineHeight: 2 }}>GOALS</h2>
+              <h2
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 35,
+                }}
+              >
+                GOALS
+              </h2>
               <body
                 style={{
                   lineHeight: 2,
