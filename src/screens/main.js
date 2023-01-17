@@ -35,7 +35,7 @@ export default function Main() {
             fontSize: 75,
           }}
         >
-          COMPUTER SCIENCE CLUB
+          COMPUTER SCIENCE CLUB{" "}
         </h1>
         <div
           style={{
@@ -289,7 +289,7 @@ export default function Main() {
           }}
         >
           <div style={{ flex: 1, textAlign: "center" }}>
-            <Link
+            {/* <Link
               style={{
                 textAlign: "center",
 
@@ -304,7 +304,21 @@ export default function Main() {
             >
               {" "}
               Learn programming in different languages
-            </Link>
+            </Link> */}
+            <h2
+              style={{
+                textAlign: "center",
+
+                fontSize: 22,
+
+                paddingLeft: 10,
+
+                paddingRIght: 10,
+                lineHeight: 2,
+              }}
+            >
+              Learn programming in different languages
+            </h2>
             <h2
               style={{
                 textAlign: "center",
