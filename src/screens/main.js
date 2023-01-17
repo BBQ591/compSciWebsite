@@ -317,7 +317,7 @@ export default function Main() {
                 lineHeight: 2,
               }}
             >
-              Learn programming in different languages
+              1. Learn programming in different languages
             </h2>
             <h2
               style={{
@@ -331,7 +331,7 @@ export default function Main() {
                 lineHeight: 2,
               }}
             >
-              Web development to build your own webpages
+              2. Web development to build your own webpages
               <h2
                 style={{
                   textAlign: "center",
@@ -344,7 +344,7 @@ export default function Main() {
                   lineHeight: 2,
                 }}
               >
-                App development to make fun apps
+                3. App development to make fun apps
               </h2>
             </h2>
           </div>
@@ -361,7 +361,7 @@ export default function Main() {
                 lineHeight: 2,
               }}
             >
-              Build problem solving skills
+              4. Build problem solving skills
               <h2
                 style={{
                   paddingRight: 10,
@@ -374,7 +374,7 @@ export default function Main() {
                   lineHeight: 2,
                 }}
               >
-                Participate in coding competitions
+                5. Participate in coding competitions
                 <h2
                   style={{
                     paddingRight: 10,
@@ -387,7 +387,7 @@ export default function Main() {
                     lineHeight: 2,
                   }}
                 >
-                  Good on college resume
+                  6. Good on college resume
                 </h2>
               </h2>
             </h2>
