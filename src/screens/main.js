@@ -9,7 +9,7 @@ export default function Main() {
   const [Spencerhover, setSpencerHover] = useState(false);
   const [Carterhover, setCarterHover] = useState(false);
   const [Lindseyhover, setLindseyHover] = useState(false);
-
+  console.log(window.innerWidth / window.innerHeight, "poop");
   const [BrianClick, setBrianClick] = useState(false);
   const [SpencerClick, setSpencerClick] = useState(false);
   const [CarterClick, setCarterClick] = useState(false);
@@ -33,7 +33,7 @@ export default function Main() {
             lineHeight: 3,
             textAlign: "center",
             marginTop: 0,
-            fontSize: 75,
+            fontSize: (window.innerWidth / window.innerHeight / 2.02463) * 75,
           }}
         >
           COMPUTER SCIENCE CLUB{" "}
@@ -58,14 +58,32 @@ export default function Main() {
               }}
             >
               <h2 style={{ lineHeight: 2 }}>MEETINGS</h2>
-              <body style={{ lineHeight: 2, fontSize: 22, paddingLeft: 20 }}>
+              <body
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
+                  paddingLeft: 20,
+                }}
+              >
                 Time: Tuesdays after school from 3:15-4:15 (flexible depending
                 on members)
               </body>
-              <body style={{ lineHeight: 2, fontSize: 22 }}>Room: CS 341</body>
+              <body
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
+                }}
+              >
+                Room: CS 341
+              </body>
               <a
                 href={"https://www.youtube.com/watch?v=XfMr6vLPBOo"}
-                style={{ fontSize: 22 }}
+                style={{
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
+                }}
               >
                 Link to setting up your coding environment
               </a>
@@ -77,13 +95,31 @@ export default function Main() {
               }}
             >
               <h2 style={{ lineHeight: 2 }}>CONTACT INFORMATION</h2>
-              <body style={{ lineHeight: 2, fontSize: 22 }}>
+              <body
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
+                }}
+              >
                 Sponsor: Mr. Jackson (kjackson@ortn.edu)
               </body>
-              <body style={{ lineHeight: 2, fontSize: 22 }}>
+              <body
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
+                }}
+              >
                 President: Brian Qu (qubri000@ortn.edu)
               </body>
-              <body style={{ lineHeight: 2, fontSize: 22 }}>
+              <body
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
+                }}
+              >
                 Remind Code: 3cg2ga7
               </body>
             </div>
@@ -105,18 +141,36 @@ export default function Main() {
               }}
             >
               <h2 style={{ lineHeight: 2 }}>GOALS</h2>
-              <body style={{ lineHeight: 2, fontSize: 22 }}>
+              <body
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
+                }}
+              >
                 1. Have fun and raise awareness about the growing field of
                 coding
               </body>
-              <body style={{ lineHeight: 2, fontSize: 22 }}>
+              <body
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
+                }}
+              >
                 2. Teach all members to code in React to build websites
               </body>
-              <body style={{ lineHeight: 2, fontSize: 22 }}>
+              <body
+                style={{
+                  lineHeight: 2,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
+                }}
+              >
                 3. Build websites for clubs outside of Computer Science Club at
                 ORHS
               </body>
-              {/* <body style={{ fontSize: 22, color: "white" }}>4.</body> */}
+              {/* <body style={{ fontSize: (window.innerWidth/window.innerHeight)/2.02463*22, color: "white" }}>4.</body> */}
             </div>
           </div>
         </div>
@@ -130,7 +184,8 @@ export default function Main() {
                 flex: 1,
                 alignItems: "center",
                 textAlign: "center",
-                fontSize: 50,
+                fontSize:
+                  (window.innerWidth / window.innerHeight / 2.02463) * 50,
                 paddingTop: 25,
                 paddingBottom: 25,
               }}
@@ -152,7 +207,8 @@ export default function Main() {
                 borderRadius: 20,
                 opacity: Brianhover ? 0.5 : 1,
                 boxShadow: "1px 2px 9px black",
-                fontSize: 30,
+                fontSize:
+                  (window.innerWidth / window.innerHeight / 2.02463) * 30,
                 backgroundImage: "url(" + require("../soccer.jpg") + ")",
                 backgroundSize: "cover",
                 color: "white",
@@ -175,7 +231,8 @@ export default function Main() {
                 width: 300,
                 opacity: Spencerhover ? 0.5 : 1,
                 boxShadow: "1px 2px 9px black",
-                fontSize: 30,
+                fontSize:
+                  (window.innerWidth / window.innerHeight / 2.02463) * 30,
                 backgroundImage: "url(" + require("../spencerPic.jpg") + ")",
                 backgroundSize: "cover",
                 color: "white",
@@ -193,7 +250,8 @@ export default function Main() {
                 width: 300,
                 opacity: Carterhover ? 0.5 : 1,
                 boxShadow: "1px 2px 9px black",
-                fontSize: 30,
+                fontSize:
+                  (window.innerWidth / window.innerHeight / 2.02463) * 30,
                 backgroundImage: "url(" + require("../danielPic.jpg") + ")",
                 backgroundSize: "cover",
                 color: "white",
@@ -211,7 +269,8 @@ export default function Main() {
                 width: 300,
                 opacity: Lindseyhover ? 0.5 : 1,
                 boxShadow: "1px 2px 9px black",
-                fontSize: 30,
+                fontSize:
+                  (window.innerWidth / window.innerHeight / 2.02463) * 30,
                 backgroundImage: "url(" + require("../lindseyPic.jpg") + ")",
                 backgroundSize: "cover",
                 color: "white",
@@ -275,7 +334,7 @@ export default function Main() {
           style={{
             textAlign: "center",
 
-            fontSize: 50,
+            fontSize: (window.innerWidth / window.innerHeight / 2.02463) * 50,
             marginBottom: 30,
           }}
         >
@@ -294,7 +353,7 @@ export default function Main() {
               style={{
                 textAlign: "center",
 
-                fontSize: 22,
+                fontSize: (window.innerWidth/window.innerHeight)/2.02463*22,
 
                 paddingLeft: 10,
 
@@ -310,7 +369,8 @@ export default function Main() {
               style={{
                 textAlign: "center",
 
-                fontSize: 22,
+                fontSize:
+                  (window.innerWidth / window.innerHeight / 2.02463) * 22,
 
                 paddingLeft: 10,
 
@@ -324,7 +384,8 @@ export default function Main() {
               style={{
                 textAlign: "center",
 
-                fontSize: 22,
+                fontSize:
+                  (window.innerWidth / window.innerHeight / 2.02463) * 22,
 
                 paddingLeft: 10,
 
@@ -337,7 +398,8 @@ export default function Main() {
                 style={{
                   textAlign: "center",
 
-                  fontSize: 22,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
 
                   paddingLeft: 10,
 
@@ -356,7 +418,8 @@ export default function Main() {
 
                 textAlign: "center",
 
-                fontSize: 22,
+                fontSize:
+                  (window.innerWidth / window.innerHeight / 2.02463) * 22,
 
                 paddingLeft: 10,
                 lineHeight: 2,
@@ -371,7 +434,8 @@ export default function Main() {
 
                   textAlign: "center",
 
-                  fontSize: 22,
+                  fontSize:
+                    (window.innerWidth / window.innerHeight / 2.02463) * 22,
                   lineHeight: 2,
                 }}
               >
@@ -384,7 +448,8 @@ export default function Main() {
 
                     textAlign: "center",
 
-                    fontSize: 22,
+                    fontSize:
+                      (window.innerWidth / window.innerHeight / 2.02463) * 22,
                     lineHeight: 2,
                   }}
                 >
