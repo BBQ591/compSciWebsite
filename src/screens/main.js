@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import HorizontalScroll from "react-horizontal-scrolling";
+import { ScrollMenu, VisiblityContext } from "react-horizontal-scrolling-menu";
 import { Link } from "react-router-dom";
 export default function Main() {
   const [Brianhover, setBrianHover] = useState(false);
@@ -137,7 +138,7 @@ export default function Main() {
               MEMBERS
             </h2>
           </div>
-          <HorizontalScroll>
+          <ScrollMenu>
             {/* <div
           style={{
             height: 250,
@@ -221,7 +222,7 @@ export default function Main() {
               onMouseOut={() => setLindseyHover(false)}
               onClick={() => setLindseyClick(true)}
             ></button>
-          </HorizontalScroll>
+          </ScrollMenu>
         </div>
         <div className="container mt-3">
           <Modal show={BrianClick}>
