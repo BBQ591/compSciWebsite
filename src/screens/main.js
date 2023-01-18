@@ -403,21 +403,6 @@ export default function Main() {
               }}
             >
               1. Learn programming in different languages
-            </h2>
-            <h2
-              style={{
-                textAlign: "center",
-
-                fontSize:
-                  (window.innerWidth / window.innerHeight / 2.02463) * 22,
-
-                paddingLeft: 10,
-
-                paddingRight: 10,
-                lineHeight: 2,
-              }}
-            >
-              2. Web development to build your own webpages
               <h2
                 style={{
                   textAlign: "center",
@@ -431,7 +416,22 @@ export default function Main() {
                   lineHeight: 2,
                 }}
               >
-                3. App development to make fun apps
+                2. Web development to build your own webpages
+                <h2
+                  style={{
+                    textAlign: "center",
+
+                    fontSize:
+                      (window.innerWidth / window.innerHeight / 2.02463) * 22,
+
+                    paddingLeft: 10,
+
+                    paddingRight: 10,
+                    lineHeight: 2,
+                  }}
+                >
+                  3. App development to make fun apps
+                </h2>
               </h2>
             </h2>
           </div>
